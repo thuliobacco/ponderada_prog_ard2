@@ -1,38 +1,5 @@
 # ATIVIDADE PONDERADA DE PROGRAMAÇÃO SEMANA 3
 
-Bill of Materials
-
-| material | quantidade |
-| -----|-----|
-| jumper fêmea - macho | 6 |
-| resistores | 3 |
-| protoboard | 1 |
-| arduíno UNO | 1 |
-| USB tipo A-B | 1 |
-
-# Tabela de Avaliação entre Pares
-
-**Avaliador:** Antonio Di Cillo
-
-| Critério | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
-|-----------|--------------------|----------------------------------|------------------------|---------------------------|
-| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores | Nota 3 | Nota 1,5 | 0 | Nota 3 (por mais que o aarelo tenha quebrado, foi esperto ao utilizar outra cor) |
-| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo | Até 3 | Até 1,5 | 0 | Nota 3 |
-| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3 | Até 1,5 | 0 | Nota 3 (bem comentado e estruturado) |
-| Ir além: Implementou um componente de extra, fez com millis() ao invés do delay() e/ou usou ponteiros no código | Até 1 | Até 0,5 | 0 | Nota 1 |
-| **Pontuação Total** | - | - | - | 10 |
-
-# Tabela de Avaliação entre Pares
-
-**Avaliador:** Caue Taddeo
-
-| Critério | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
-|-----------|--------------------|----------------------------------|------------------------|---------------------------|
-| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores | Nota 3 | Nota 1,5 | 0 | Nota 3 |
-| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo | Até 3 | Até 1,5 | 0 | Nota 3 |
-| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3 | Até 1,5 | 0 | Nota 3 (bem comentado e estruturado) |
-| Ir além: Implementou um componente de extra, fez com millis() ao invés do delay() e/ou usou ponteiros no código | Até 1 | Até 0,5 | 0 | Nota 1 |
-| **Pontuação Total** | - | - | - | 10 |
 
 ##Código utilizado:
 ```cpp
@@ -80,3 +47,38 @@ void loop()  {
 LINK DEMONSTRAÇÃO DO VÍDEO - https://github.com/thuliobacco/ponderada_prog_ard2.git
 
 ![WhatsApp Image 2025-10-28 at 14 58 38](https://github.com/user-attachments/assets/5aac2ae0-c5f7-4960-847b-dae851775be6)
+
+
+Bill of Materials
+
+| material | quantidade |
+| -----|-----|
+| jumper fêmea - macho | 6 |
+| resistores | 3 |
+| protoboard | 1 |
+| arduíno UNO | 1 |
+| USB tipo A-B | 1 |
+
+# Tabela de Avaliação entre Pares
+
+**Avaliador:** Antonio Di Cillo
+
+| Critério | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
+|-----------|--------------------|----------------------------------|------------------------|---------------------------|
+| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores | Nota 3 | Nota 1,5 | 0 | Nota 3 (por mais que o aarelo tenha quebrado, foi esperto ao utilizar outra cor) |
+| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo | Até 3 | Até 1,5 | 0 | Nota 3 |
+| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3 | Até 1,5 | 0 | Nota 3 (bem comentado e estruturado) |
+| Ir além: Implementou um componente de extra, fez com millis() ao invés do delay() e/ou usou ponteiros no código | Até 1 | Até 0,5 | 0 | Nota 1 |
+| **Pontuação Total** | - | - | - | 10 |
+
+# Tabela de Avaliação entre Pares
+
+**Avaliador:** Caue Taddeo
+
+| Critério | Contempla (Pontos) | Contempla Parcialmente (Pontos) | Não Contempla (Pontos) | Observações do Avaliador |
+|-----------|--------------------|----------------------------------|------------------------|---------------------------|
+| Montagem física com cores corretas, boa disposição dos fios e uso adequado de resistores | Nota 3 | Nota 1,5 | 0 | Nota 3 |
+| Temporização adequada conforme tempos medidos com auxílio de algum instrumento externo | Até 3 | Até 1,5 | 0 | Nota 3 |
+| Código implementa corretamente as fases do semáforo e estrutura do código (variáveis representativas e comentários) | Até 3 | Até 1,5 | 0 | Nota 3 (bem comentado e estruturado) |
+| Ir além: Implementou um componente de extra, fez com millis() ao invés do delay() e/ou usou ponteiros no código | Até 1 | Até 0,5 | 0 | Nota 1 |
+| **Pontuação Total** | - | - | - | 10 |
