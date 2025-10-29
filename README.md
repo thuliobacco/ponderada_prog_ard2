@@ -1,6 +1,10 @@
 # ATIVIDADE PONDERADA DE PROGRAMAÇÃO SEMANA 3
 
 
+LINK DEMONSTRAÇÃO DO VÍDEO - https://github.com/thuliobacco/ponderada_prog_ard2.git
+
+![WhatsApp Image 2025-10-28 at 14 58 38](https://github.com/user-attachments/assets/5aac2ae0-c5f7-4960-847b-dae851775be6)
+
 ##Código utilizado:
 ```cpp
 // declaração das variáveis intervalo e previousMillis
@@ -44,17 +48,16 @@ void loop()  {
 };
 ```
 
-LINK DEMONSTRAÇÃO DO VÍDEO - https://github.com/thuliobacco/ponderada_prog_ard2.git
+A montagem foi feita em uma protoboard, utilizando três LEDs (vermelho, amarelo e verde) conectados aos pinos digitais 10, 11 e 13 do Arduino UNO, cada um com um resistor de 220 Ω em série para limitar a corrente. Os jumpers fêmea-macho foram usados para interligar o Arduino à protoboard, e o cabo USB tipo A-B serviu para alimentar o circuito e carregar o código. A disposição dos componentes segue a lógica de um semáforo, com os LEDs alinhados e o GND comum conectado à linha negativa da protoboard.
 
-![WhatsApp Image 2025-10-28 at 14 58 38](https://github.com/user-attachments/assets/5aac2ae0-c5f7-4960-847b-dae851775be6)
+O código foi pensado para simular o funcionamento real de um semáforo de trânsito. A função tempoMillis() usa o millis(), que conta o tempo desde que o Arduino foi ligado, para controlar a duração de cada fase sem bloquear o loop principal (diferente do delay()). Assim, o programa mantém cada luz acesa pelo tempo determinado — vermelho por 6 s, verde por 4 s e amarelo por 2 s — trocando automaticamente entre elas de forma contínua.
 
-
-Bill of Materials
+# Bill of Materials
 
 | material | quantidade |
 | -----|-----|
 | jumper fêmea - macho | 6 |
-| resistores | 3 |
+| resistores (220 Ω) | 3 |
 | protoboard | 1 |
 | arduíno UNO | 1 |
 | USB tipo A-B | 1 |
