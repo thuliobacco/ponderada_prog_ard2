@@ -1,7 +1,7 @@
 # ATIVIDADE PONDERADA DE PROGRAMAÇÃO SEMANA 3
 
 
-LINK DEMONSTRAÇÃO DO VÍDEO - https://github.com/thuliobacco/ponderada_prog_ard2.git
+LINK DEMONSTRAÇÃO DO VÍDEO - https://youtube.com/shorts/yhWg6mo6p8Y?si=s9Nr-w8BIet048TO
 
 ![WhatsApp Image 2025-10-28 at 14 58 38](https://github.com/user-attachments/assets/5aac2ae0-c5f7-4960-847b-dae851775be6)
 
