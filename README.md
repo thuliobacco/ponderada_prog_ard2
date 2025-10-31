@@ -50,7 +50,7 @@ void loop()  {
 
 A montagem foi feita em uma protoboard, utilizando três LEDs (vermelho, amarelo e verde) conectados aos pinos digitais 10, 11 e 13 do Arduino UNO, cada um com um resistor de 220 Ω em série para limitar a corrente. Os jumpers fêmea-macho foram usados para interligar o Arduino à protoboard, e o cabo USB tipo A-B serviu para alimentar o circuito e carregar o código. A disposição dos componentes segue a lógica de um semáforo, com os LEDs alinhados e o GND comum conectado à linha negativa da protoboard.
 
-O código foi pensado para simular o funcionamento real de um semáforo de trânsito. A função tempoMillis() usa o millis(), que conta o tempo desde que o Arduino foi ligado, para controlar a duração de cada fase sem bloquear o loop principal (diferente do delay()). Assim, o programa mantém cada luz acesa pelo tempo determinado — vermelho por 6 s, verde por 4 s e amarelo por 2 s — trocando automaticamente entre elas de forma contínua.
+O código foi pensado para simular o funcionamento real de um semáforo de trânsito. A função tempoMillis() usa o millis(), que conta o tempo desde que o Arduino foi ligado, para controlar a duração de cada fase sem bloquear o loop principal (diferente do delay()). Assim, o programa mantém cada luz acesa pelo tempo determinado: vermelho por 6 s, verde por 4 s e amarelo por 2 s. Trocando automaticamente entre elas de forma contínua.
 
 # Bill of Materials
 
